@@ -1,0 +1,311 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayanfe's Fashion Empire - You Bring Your Desire, We Give You The Best</title>
+    <link rel="stylesheet" href="Clothings.css">
+    <script src="fashion-script.js" defer></script>
+</head>
+<body>
+    <div class="scroll-to-top">↑</div>
+
+    <!-- Navigation Header -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">✨ Ayanfe's Fashion Empire</div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="cart-icon">
+                    🛍️
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Ayanfe's Fashion Empire</h1>
+                <p class="motto">You Bring Your Desire, We Give You The Best</p>
+                <button class="btn btn-primary">Explore Collections</button>
+            </div>
+            <div class="hero-bg"></div>
+        </section>
+
+        <!-- Featured Collections -->
+        <section id="collections" class="collections">
+            <div class="container">
+                <h2>Our Collections</h2>
+                
+                <!-- Search and Filter -->
+                <div class="collection-controls">
+                    <input type="text" class="search-input" placeholder="🔍 Search fashion items...">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="men">Baby</button>
+                        <button class="filter-btn" data-filter="women">Women</button>
+                        <button class="filter-btn" data-filter="accessories">Accessories</button>
+                    </div>
+                </div>
+
+                <div class="collection-grid">
+                    <!-- Women's Collection 1 -->
+                    <div class="fashion-card" data-category="women">
+                        <div class="fashion-image">
+                            <img src="image/clothing5.jpg" alt="clothingsw=400$h=300">
+                            <div class="badge">New</div>
+                        </div>
+                        <div class="fashion-info">
+                            <h3>Elegant gown </h3>
+                            <p class="category-tag">Women's Wear</p>
+                            <p class="description">Stunning floor-length gown perfect for special occasions</p>
+                            <div class="price-section">
+                                <span class="price">$299.99</span>
+                                <div class="rating">⭐⭐⭐⭐⭐ (245)</div>
+                            </div>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!--  baby's weae-->
+                    <div class="fashion-card" data-category="baby">
+                        <div class="fashion-image">
+                            <img src="image/clothing10.jpg" alt="clothingsw=400$h=300">
+                            <div class="badge">Sale</div>
+                        </div>
+                        <div class="fashion-info">
+                            <h3>baby's Dress</h3>
+                            <p class="category-tag">baby's wear</p>
+                            <p class="description">Light and comfortable clothes for babies</p>
+                            <div class="price-section">
+                                <span class="price">$89.99</span>
+                                <span class="original-price">$129.99</span>
+                                <div class="rating">⭐⭐⭐⭐ (189)</div>
+                            </div>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- office wear -->
+                    <div class="fashion-card" data-category="men">
+                        <div class="fashion-image">
+                            <img src="image/clothing9.jpg" alt="Clothingsw=400$h=300">
+                            <div class="badge">Premium</div>
+                        </div>
+                        <div class="fashion-info">
+                            <h3>Classic office wear</h3>
+                            <p class="category-tag">office wear</p>
+                            <p class="description">Professional office wear for business occassions</p>
+                            <div class="price-section">
+                                <span class="price">$399.99</span>
+                                <div class="rating">⭐⭐⭐⭐⭐ (312)</div>
+                            </div>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Men's Collection 2 -->
+                    <div class="fashion-card" data-category="women">
+                        <div class="fashion-image">
+                            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop" alt="Casual Shirt">
+                            <div class="badge">Trending</div>
+                        </div>
+                        <div class="fashion-info">
+                            <h3>Premium Casual Shirt</h3>
+                            <p class="category-tag">Men's Wear</p>
+                            <p class="description">Comfortable premium cotton shirt for everyday wear</p>
+                            <div class="price-section">
+                                <span class="price">$79.99</span>
+                                <div class="rating">⭐⭐⭐⭐ (156)</div>
+                            </div>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Accessories 1 -->
+                    <div class="fashion-card" data-category="accessories">
+                        <div class="fashion-image">
+                            <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=500&fit=crop" alt="Designer Handbag">
+                        </div>
+                        <div class="fashion-info">
+                            <h3>Luxury Designer Handbag</h3>
+                            <p class="category-tag">Accessories</p>
+                            <p class="description">Elegant leather handbag with signature design</p>
+                            <div class="price-section">
+                                <span class="price">$249.99</span>
+                                <div class="rating">⭐⭐⭐⭐⭐ (128)</div>
+                            </div>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- outing dress -->
+                    <div class="fashion-card" data-category="women wear">
+                        <div class="fashion-image">
+                            <img src="image/clothing7.jpg" alt="Clothingsw=400$h=300">
+                        </div>
+                        <div class="fashion-info">
+                            <h3>Outing wears</h3>
+                            <p class="category-tag">Outing dress</p>
+                            <p class="description">Dress for any ocassion you want to attend ayanfe is ready to sow</p>
+                            <div class="price-section">
+                                <span class="price">$159.99</span>
+                                <div class="rating">⭐⭐⭐⭐ (234)</div>
+                            </div>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Ayanfe's Fashion Empire</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Mission</h3>
+                        <p>At Ayanfe's Fashion Empire, we believe that fashion is more than just clothing – it's a form of self-expression. Our motto, "You Bring Your Desire, We Give You The Best," encapsulates our commitment to bringing your fashion dreams to life.</p>
+                        <p>We curate the finest collections from premium designers and brands, ensuring that every piece in our collection meets our high standards of quality, style, and elegance.</p>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat">
+                            <h3>15K+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Fashion Items</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Premium Brands</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Quality Guarantee</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-choose">
+            <div class="container">
+                <h2>Why Choose Us?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">👗</div>
+                        <h3>Premium Quality</h3>
+                        <p>Only the finest fabrics and craftsmanship in every piece</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🚚</div>
+                        <h3>Fast Delivery</h3>
+                        <p>Quick and secure shipping to your doorstep</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💎</div>
+                        <h3>Exclusive Designs</h3>
+                        <p>Unique styles you won't find anywhere else</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>Best Prices</h3>
+                        <p>Competitive pricing with regular sales and discounts</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Easy Returns</h3>
+                        <p>Hassle-free returns within 30 days</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👥</div>
+                        <h3>Expert Stylists</h3>
+                        <p>Personal styling advice from fashion experts</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h3>📍 Location</h3>
+                            <p>Fashion District, Lagos, Nigeria</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>📞 Phone</h3>
+                            <p>+234 705 994 8679</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>✉️ Email</h3>
+                            <p>hello@ayanfefashion.com</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>⏰ Hours</h3>
+                            <p>Mon-Sat: 10am - 8pm<br>Sun: 12pm - 6pm</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Ayanfe's Fashion Empire - Where style meets quality</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ayanfe's Fashion Empire. All rights reserved. | You Bring Your Desire, We Give You The Best</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

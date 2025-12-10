@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "image"
+		},
+		{
+			"path": "soair-react"
+		},
+		{
+			"path": "test"
+		},
+		{
+			"path": "vite-project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "image"
+	}
+}

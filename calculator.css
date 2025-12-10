@@ -1,0 +1,50 @@
+body {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.calculator {
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 15px;
+    width: 350px;
+    padding: 15px;
+}
+.display {
+    height: 70px;
+    background: white;
+    color: orange;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: right;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+.btn {
+    border: 1px;
+    color: orange;
+    padding: 18px;
+    font-size: 1.5rem;
+    height: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+}
+.equal {
+    grid-row: span 2;    
+}
+.change-bg {
+    grid-column: span 2;
+    font-size: 1rem;
+    line-height: 1.1;
+}
