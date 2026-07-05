@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+    margin: 0;
+}
+.flex {
+    display:grid;
+    height: 100%;
+   grid-template-columns: repeat(3, 300px);
+   padding: 60px;
+   gap: 20px;
+   
+}
+
+.flex div {
+    
+    background-color: aqua;
+}

@@ -1,0 +1,41 @@
+.wale{
+    background: linear-gradient(to left, green, orange, blue, red, gold);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: dev 1s linear infinite;
+}
+@keyframes dev {
+    to{
+        background-position-x: 161px;
+    }
+}
+button {
+    background-color: red;
+    padding: 20px;
+    color: white;
+    transition: background-color 5s;
+}
+button:hover {
+    background-color: green;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: 2s;
+}
+.box:hover {
+    width: 150px;
+    height: 150px;
+
+    /* zoom effect */
+    transform: scale(1.2);
+
+    /* move effect */
+    transform: translateX(50px);
+
+    /* to rotate */
+
+    transform: rotate(45deg);
+}

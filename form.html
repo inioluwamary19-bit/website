@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="" class="registration-form"method="post">
+    <h2>Registration</h2>
+    <p>Register with your real information</p>
+    <div class="flex">
+        <input type="text" placeholder="First name" required>
+        <input type="text" placeholder="last name" required>
+    </div>
+    <input type="text" class="input" placeholder="Username">
+    <input type="email" class="input" placeholder="Email address">
+    <input type="number" class="input" placeholder="Phone number">
+    <label for="date">Birth date</label>
+    <input type="date" class="input" id="date">
+    <div class="flex">
+        <p>Gender: </p>
+        <label><input type="radio" name="gender">male</label>
+        <label><input type="radio" name="gender">female</label>
+        <label><input type="radio" name="gender">other</label>
+    </div>
+    <button type="submit">Register</button>
+    </form>
+</body>
+</html>

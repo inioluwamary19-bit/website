@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>P-MAN TECH — Smartphones</title>
+  <link rel="stylesheet" href="pman-styles.css">
+</head>
+<body>
+  <div class="container header">
+    <a class="brand" href="pman.html"><img src="image/redmi.jpg" alt="P-MAN TECH"></a>
+    <nav class="nav"><a href="pman.html">Home</a><a href="laptops.html">Laptops</a><a href="powerbanks.html">Power Banks</a><a id="open-compare" href="#" onclick="event.preventDefault();openCompare();">Compare (<span id="compare-count">0</span>)</a><a id="open-cart" href="#" onclick="event.preventDefault();openCart();">Cart (<span id="cart-count">0</span>)</a></nav>
+  </div>
+
+  <main class="container">
+    <h1>Latest Smartphones</h1>
+    <p class="kv">Flagship speed, pro photography and long battery life.</p>
+
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product" data-id="pman-sm-1" data-title="P-MAN Vertex X" data-price="899" data-img="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-tags="smartphone flagship camera" data-specs='{"CPU":"Snapdragon 8 Gen","RAM":"12GB","Storage":"256GB","Battery":"5000mAh"}'>
+        <img src="image/samsung.jpg" alt="P-MAN Vertex X">
+        <div class="title">samsung galaxy S24 ultra Ai 256GB, dual sim </div>
+        <div class="kv">256GB dual sim</div>
+        <div class="price">#1 190 000</div>
+        <div class="actions">
+          <button class="btn btn-add">Add to cart</button>
+          <button class="btn-outline btn-compare">Compare</button>
+        </div>
+        <div class="reviews" style="margin-top:10px">
+          <form class="review-form" data-for="pman-sm-1"><input name="name" placeholder="Name" style="width:100%;padding:8px;margin-bottom:6px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"><textarea name="text" placeholder="Write a review" style="width:100%;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"></textarea><div style="margin-top:6px"><button class="btn" type="submit">Submit Review</button></div></form>
+          <div id="reviews-pman-sm-1"></div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product" data-id="pman-sm-2" data-title="Tecno" data-price="699" data-img="https://images.unsplash.com/photo-1510557880182-3fb0f4f9d8f8?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-tags="smartphone midrange battery" data-specs='{"CPU":"Helio G99","RAM":"8GB","Storage":"128GB","Battery":"6000mAh"}'>
+        <img src="image/tecno camon.jpg" alt="P-MAN Aero Pro">
+        <div class="title">Tecno camon</div>
+        <div class="kv">40 pro 5G + 256GB</div>
+        <div class="price">#300 000</div>
+        <div class="actions">
+          <button class="btn btn-add">Add to cart</button>
+          <button class="btn-outline btn-compare">Compare</button>
+        </div>
+        <div class="reviews" style="margin-top:10px">
+          <form class="review-form" data-for="pman-sm-2"><input name="name" placeholder="Name" style="width:100%;padding:8px;margin-bottom:6px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"><textarea name="text" placeholder="Write a review" style="width:100%;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"></textarea><div style="margin-top:6px"><button class="btn" type="submit">Submit Review</button></div></form>
+          <div id="reviews-pman-sm-2"></div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product" data-id="pman-sm-3" data-title="Infinix" data-price="499" data-img="https://images unsplash.com/photo-1511707171634-5f897ff02aa9?q=80$w=1200$auto=format$fit=crop$ixlib=rb-4.0.3$s=placeholder" data-tags="smartphone budget fastcharge" data-specs='{"CPU":"Snapdragon 7","RAM":"6GB","Storage":"128GB","Battery":"4500mAh"}'>
+        <img src="image/infinix.jpg" alt="P-MAN Nova S">
+        <div class="title">Infinix</div>
+        <div class="kv">40 pro dual sim- 8GB RAM </div>
+        <div class="price">#200 000</div>
+        <div class="actions">
+          <button class="btn btn-add">Add to cart</button>
+          <button class="btn-outline btn-compare">Compare</button>
+        </div>
+        <div class="reviews" style="margin-top:10px">
+          <form class="review-form" data-for="pman-sm-3"><input name="name" placeholder="Name" style="width:100%;padding:8px;margin-bottom:6px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"><textarea name="text" placeholder="Write a review" style="width:100%;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"></textarea><div style="margin-top:6px"><button class="btn" type="submit">Submit Review</button></div></form>
+          <div id="reviews-pman-sm-3"></div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="pman-script.js" defer></script>
+</body>
+</html>

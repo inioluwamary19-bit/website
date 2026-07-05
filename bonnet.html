@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Eniola Hair Bonnet</title>
+  <link rel="stylesheet" href="bonnet.css">
+  <script src="bonnet.js" defer></script>
+</head>
+<body>
+  <div class="scroll-to-top">↑</div>
+
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">Eniola Bonnet</div>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="cart-icon">🛍️<span class="cart-count">0</span></div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Eniola Hair Bonnet</h1>
+          <p class="motto">Protect your crown in style</p>
+          <p class="lead">Premium satin and silk-lined bonnets designed to preserve hair moisture, reduce frizz, and look beautiful every night.</p>
+          <div class="hero-ctas">
+            <button class="btn btn-primary">Shop Bestsellers</button>
+            <button class="btn btn-secondary" id="view-shop">View All</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="image/bonnet5.jpg" alt="bonnetw=200$h=300fit=crop">
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="shop">
+      <div class="container">
+        <h2>Our Bonnets</h2>
+        <div class="controls">
+          <input class="search-input" placeholder="Search bonnets...">
+          <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="satin">Satin</button>
+            <button class="filter-btn" data-filter="silk">silk-lined</button>
+            <button class="filter-btn" data-filter="kids">kids</button>
+          </div>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-card" data-category="satin">
+            <div class="product-image"><img src="image/bonnet4.jpg" alt="bonnetw=200$h=100">
+            <div class="product-info">
+              <h3>Classic Satin Bonnet</h3>
+              <p class="description">Soft satin exterior with adjustable drawstring. Keeps hair smooth overnight.</p>
+              <div class="price">#3500</div>
+              <button class="btn btn-secondary">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="silk">
+            <div class="product-image"><img src="image/bonnet3.jpg" alt="bonnetw=200$h=100">
+            <div class="product-info">
+              <h3>Luxury Silk-lined Bonnet</h3>
+              <p class="description">Silk interior to reduce friction and retain moisture for natural and chemically-treated hair.</p>
+              <div class="price">#3500</div>
+              <button class="btn btn-secondary">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="satin">
+            <div class="product-image"><img src="image/bonnet2.jpg" alt="bonnetw=900$h=700">
+            <div class="product-info">
+              <h3>Two colors bonnet</h3>
+              <p class="description">Beautiful two in one bonnet that match your outfit. Comfortable elastic band.</p>
+              <div class="price">#3500</div>
+              <button class="btn btn-secondary">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="kids">
+            <div class="product-image"><img src="image/bonnet1.jpg" alt="bonnetw=200$h=100">
+            <div class="product-info">
+              <h3>Bonnet and srunchies</h3>
+              <p class="description">srunchies and hair bonnet is available, just place your order to get your own — protects braids and delicate hair.</p>
+              <div class="price">#4000</div>
+              <button class="btn btn-secondary">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Why Choose Eniola</h2>
+        <div class="features-grid">
+          <div class="feature-card"><h3>Premium Materials</h3><p>Only high-grade satin and silk used for long-lasting comfort.</p></div>
+          <div class="feature-card"><h3>Adjustable Fit</h3><p>Drawstrings and elastic options for every head size.</p></div>
+          <div class="feature-card"><h3>Beautiful Designs</h3><p>Classic and printed styles to suit your taste.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact & Orders</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p>Email: hello@eniolabonnet.com</p>
+            <p>Phone: +234 810 792 3378</p>
+            <p>Location: 33 Alafia street, ijoko, ogba iyo, ogun state</p>
+            <p>Time opened: monday-saturday: 24hours</p>
+          </div>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Eniola Hair Bonnet. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

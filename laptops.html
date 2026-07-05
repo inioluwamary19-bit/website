@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>P-MAN TECH — Laptops</title>
+  <link rel="stylesheet" href="pman-styles.css">
+</head>
+<body>
+  <div class="container header">
+    <a class="brand" href="pman.html"><img src="image/dell.jpg" alt="P-MAN TECH"></a>
+    <nav class="nav"><a href="pman.html">Home</a><a href="smartphones.html">Smartphones</a><a href="powerbanks.html">Power Banks</a><a id="open-compare" href="#" onclick="event.preventDefault();openCompare();">Compare (<span id="compare-count">0</span>)</a><a id="open-cart" href="#" onclick="event.preventDefault();openCart();">Cart (<span id="cart-count">0</span>)</a></nav>
+  </div>
+
+  <main class="container">
+    <h1>High Performance Laptops</h1>
+    <p class="kv">Workstation-grade performance for creators and devs.</p>
+    <div class="product-grid">
+      <div class="product" data-id="pman-lt-1" data-title="HP" data-price="2199" data-img="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-tags="laptop workstation gpu" data-specs='{"CPU":"Intel i9","GPU":"RTX 4080","RAM":"32GB","Storage":"1TB SSD"}'>
+        <img src="image/hp.jpg" alt="P-MAN Titan Pro">
+        <div class="title">HP</div>
+        <div class="kv">8.00GB (7.88GB usable)</div>
+        <div class="price">#250,000</div>
+        <div class="actions"><button class="btn btn-add">Add to cart</button><button class="btn-outline btn-compare">Compare</button></div>
+        <div class="reviews" style="margin-top:10px"><form class="review-form" data-for="pman-lt-1"><input name="name" placeholder="Name" style="width:100%;padding:8px;margin-bottom:6px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"><textarea name="text" placeholder="Write a review" style="width:100%;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"></textarea><div style="margin-top:6px"><button class="btn" type="submit">Submit Review</button></div></form><div id="reviews-pman-lt-1"></div></div>
+      </div>
+
+      <div class="product" data-id="pman-lt-2" data-title="Toshiba" data-price="200,000" data-img="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-tags="laptop lightweight battery" data-specs='{"CPU":"Apple M2","GPU":"Integrated","RAM":"16GB","Storage":"1TB SSD"}'>
+        <img src="image/toshiba.jpg" alt="P-MAN Ultralight">
+        <div class="title">Toshiba</div>
+        <div class="kv">13" • Long battery life</div>
+        <div class="price">#200,000</div>
+        <div class="actions"><button class="btn btn-add">Add to cart</button><button class="btn-outline btn-compare">Compare</button></div>
+        <div class="reviews" style="margin-top:10px"><form class="review-form" data-for="pman-lt-2"><input name="name" placeholder="Name" style="width:100%;padding:8px;margin-bottom:6px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"><textarea name="text" placeholder="Write a review" style="width:100%;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"></textarea><div style="margin-top:6px"><button class="btn" type="submit">Submit Review</button></div></form><div id="reviews-pman-lt-2"></div></div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="pman-script.js" defer></script>
+</body>
+</html>

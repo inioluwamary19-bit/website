@@ -1,0 +1,169 @@
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    padding: 20px;
+    width: 100%;
+    height: 80px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    font-size: 2.5em;
+    color: purple;
+}
+.logo span {
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+ul li a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: red;
+}
+ul li a:hover {
+    color: white;
+    border-bottom: 2px solid red;
+}
+.hero {
+    width: 100px;
+    height: 80vh;
+    background-color: aqua;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+button {
+    padding: 12px;
+    background-color: chartreuse;
+    color: blue;
+    border: none;
+    border-radius: 10px;
+}
+.hero button:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
+.money {
+    background-color: blue;
+    width: 100%;
+    height: 150px;
+}
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* about page */
+.about {
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    text-align: center;
+    padding: 60px 20px;   
+}
+.about h1 {
+    font-size: 2em;
+}
+.about p {
+font-size: 1.4em;
+}
+
+/* service page */
+.service{
+    background-color: purple;
+    height: 400px;
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+.service h2{
+    font-size: 2em;
+}
+.service p {
+font-size: 1.4em;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.card div {
+    background-color: green;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+.card h2 {
+    font-size: 20px;
+}
+.card p {
+    font-size: 12px;
+}
+/* contact page */
+.contact{
+    background-color: red;
+    height: 400px;
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+.contact h1 {
+    font-size: 2em;
+}
+.contact p {
+    font-size: 1.4em;
+}
+/* FAQs page */
+.FAQs {
+    background-color: aqua;
+    height: 400px;
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+    color: black;
+}
+.FAQs h1 {
+    font-size: 2em;
+}
+.FAQs P {
+    font-size: 1.4em;
+}
+/* Form page */
+.form {
+    background-color: rebeccapurple;
+    height: 400px;
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+.form group {
+    margin-bottom: 16px;
+}
+.form group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}

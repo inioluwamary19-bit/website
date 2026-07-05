@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>P-MAN TECH — Checkout (Demo)</title>
+  <link rel="stylesheet" href="pman-styles.css">
+</head>
+<body>
+  <div class="container header">
+    <a class="brand" href="pman.html"><img src="assets/pman-logo.svg" alt="P-MAN TECH"></a>
+  </div>
+  <main class="container">
+    <h1>Checkout (Demo)</h1>
+    <p class="kv">This page is a placeholder. To accept payments integrate a payment provider such as Stripe or PayPal. Below is a demo checkout flow that does not process payments.</p>
+    <div class="modal">
+      <h3>Demo Checkout</h3>
+      <p class="kv">Total: <strong>$0.00</strong></p>
+      <p>Click <button class="btn" onclick="alert('Demo only: integrate Stripe/PayPal server-side for real payments')">Pay Now</button> to simulate a checkout.</p>
+      <p style="margin-top:12px" class="kv">Integration notes: Use Stripe Checkout or Payment Intents server-side. Do not include secret keys in client code.</p>
+    </div>
+  </main>
+  <script src="pman-script.js" defer></script>
+</body>
+</html>

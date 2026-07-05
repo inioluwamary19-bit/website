@@ -1,0 +1,16 @@
+body{
+    margin: auto;
+    padding: 80px;
+    background-color: lightblue;
+    display: block;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}    
+
+img{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}

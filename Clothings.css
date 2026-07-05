@@ -43,7 +43,7 @@ header {
     font-size: 1.6rem;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #ffd700;
+    color: red;
 }
 
 .nav-links {
@@ -61,7 +61,7 @@ header {
 }
 
 .nav-links a:hover {
-    color: #ffd700;
+    color: red;
 }
 
 .nav-links a::after {

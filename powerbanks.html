@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>P-MAN TECH — Power Banks</title>
+  <link rel="stylesheet" href="pman-styles.css">
+</head>
+<body>
+  <div class="container header">
+    <a class="brand" href="pman.html"><img src="image/itel bank.jpg" alt="P-MAN TECH"></a>
+    <nav class="nav"><a href="pman.html">Home</a><a href="smartphones.html">Smartphones</a><a href="laptops.html">Laptops</a><a id="open-compare" href="#" onclick="event.preventDefault();openCompare();">Compare (<span id="compare-count">0</span>)</a><a id="open-cart" href="#" onclick="event.preventDefault();openCart();">Cart (<span id="cart-count">0</span>)</a></nav>
+  </div>
+
+  <main class="container">
+    <h1>High-Capacity Power Banks & Chargers</h1>
+    <p class="kv">Fast charging and reliable energy for all your devices.</p>
+    <div class="product-grid">
+      <div class="product" data-id="pman-pb-1" data-title="Itel power bank" data-price="89" data-img="https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-tags="powerbank fastcharge 20000mah" data-specs='{"Capacity":"20000mAh","Output":"100W","Ports":"USB-C, USB-A","Weight":"420g"}'>
+        <img src="image/itel bank.jpg" alt="P-MAN Boost 20K">
+        <div class="title">Itel power pulse 20w power bank</div>
+        <div class="kv">20000mAh • 100W PD</div>
+        <div class="price">#150 000</div>
+        <div class="actions"><button class="btn btn-add">Add to cart</button><button class="btn-outline btn-compare">Compare</button></div>
+        <div class="reviews" style="margin-top:10px"><form class="review-form" data-for="pman-pb-1"><input name="name" placeholder="Name" style="width:100%;padding:8px;margin-bottom:6px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"><textarea name="text" placeholder="Write a review" style="width:100%;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"></textarea><div style="margin-top:6px"><button class="btn" type="submit">Submit Review</button></div></form><div id="reviews-pman-pb-1"></div></div>
+      </div>
+
+      <div class="product" data-id="pman-pb-2" data-title="New age" data-price="49" data-img="https://images.unsplash.com/photo-1564936283953-e2d8d1b2a9e3?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-tags="powerbank slim 10000mah" data-specs='{"Capacity":"10000mAh","Output":"30W","Ports":"USB-C","Weight":"210g"}'>
+        <img src="image/new age.jpg" alt="P-MAN Slim 10K">
+        <div class="title">New age power bank</div>
+        <div class="kv">10000mAh • Ultra-thin</div>
+        <div class="price">#100 000</div>
+        <div class="actions"><button class="btn btn-add">Add to cart</button><button class="btn-outline btn-compare">Compare</button></div>
+        <div class="reviews" style="margin-top:10px"><form class="review-form" data-for="pman-pb-2"><input name="name" placeholder="Name" style="width:100%;padding:8px;margin-bottom:6px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"><textarea name="text" placeholder="Write a review" style="width:100%;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"></textarea><div style="margin-top:6px"><button class="btn" type="submit">Submit Review</button></div></form><div id="reviews-pman-pb-2"></div></div>
+      </div>
+
+      <div class="product" data-id="pman-pb-3" data-title="vista" data-price="59"  data-img="https://images.unsplash.com/photo-1564936283953-e2d8d1b2a9e3?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-tags="powerbank slim 10000mah" data-specs='{"Capacity":"10000mAh","Output":"30W","Ports":"USB-C","Weight":"210g"}'>
+       <img src="image/vista.jpg" alt="vista">
+        <div class="title">vista</div>
+        <div class="kv">20000mAh</div>
+        <div class="price">#150 000</div>
+        <div class="actions"><button class="btn btn-add">Add to cart</button><button class="btn-outline btn-compare">Compare</button></div>
+        <div class="reviews" style="margin-top:10px"><form class="review-form" data-for="pman-pb-2"><input name="name" placeholder="Name" style="width:100%;padding:8px;margin-bottom:6px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"><textarea name="text" placeholder="Write a review" style="width:100%;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)"></textarea><div style="margin-top:6px"><button class="btn" type="submit">Submit Review</button></div></form><div id="reviews-pman-pb-2"></div></div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="pman-script.js" defer></script>
+</body>
+</html>
