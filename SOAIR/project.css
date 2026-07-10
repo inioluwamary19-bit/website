@@ -1,0 +1,100 @@
+.event-flyer {
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    background: #fff8dc;
+}
+.event-title {
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+}
+.event-title h1 {
+    color: darkblue;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #444;
+}
+.event-info {
+    background: burlywood;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.event-info h2 {
+    color: darkblue;
+    margin-bottom: 15px;
+}
+.event-info p {
+    margin: 10px 0;
+}
+.event-guests {
+    display: flex;
+    color: white;
+    gap: 150px;
+}    
+.guest-image {
+    width: 150px;
+    height: 150px;
+}
+.guest-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+.event-guests h3 {
+    margin-top: 15px;   
+    color: darkblue;
+}
+.event-guests p {
+    color: black;
+}
+.ticket {
+    margin-top: 100px;
+}
+.price {
+    background: burlywood;
+    width: 250px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.price p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+button {
+    padding: 15px 35px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background: blue;
+}
+@media(max-width:768px) {
+    .event-guests {
+        flex-direction: column;
+        align-items: center;
+    }
+    .event-info {
+        width: 100%;
+    }
+    .price {
+        width: 100%;
+    }
+}

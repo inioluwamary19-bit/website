@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polished Responsive Navbar</title>
+  <link rel="stylesheet" href="style2.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+</head>
+<body>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      
+      <!-- Mobile menu button -->
+      <button class="menu-btn" id="menuBtn" aria-label="Open Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- Left nav -->
+      <ul class="nav-links nav-left">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+
+      <!-- Logo -->
+      <a href="#" class="logo">QWAM</a>
+
+      <!-- Right nav -->
+      <div class="nav-right-wrap">
+        <ul class="nav-links nav-right">
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <a href="#" class="nav-btn">Get Started</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-top">
+      <a href="#" class="sidebar-logo">QWAM</a>
+      <button class="close-btn" id="closeBtn" aria-label="Close Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <ul class="sidebar-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <a href="#" class="sidebar-btn">Get Started</a>
+  </aside>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">Modern Responsive Navigation</p>
+      <h1>Build polished websites with a clean navbar layout</h1>
+      <p class="hero-text">
+        This navbar is centered, responsive, and uses a smooth sidebar for smaller screens.
+      </p>
+      <div class="hero-actions">
+        <a href="#" class="primary-btn">Explore</a>
+        <a href="#" class="secondary-btn">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

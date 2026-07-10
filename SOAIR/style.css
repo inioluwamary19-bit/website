@@ -256,3 +256,57 @@
     height: 100%;
     object-fit: cover;
 }
+.review-section {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: black;
+    overflow: hidden;
+}
+.review-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: red;
+}
+.review-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.review-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: scrollReviews 20s linear infinite;
+}
+.review-card {
+    width: 280px;
+    min-width: 280px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.review-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.review-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: black;
+}
+.review-card p {
+    font-size: 1rem;
+    color: red;
+    line-height: 1.6;
+}
+@keyframes scrollReviews {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
