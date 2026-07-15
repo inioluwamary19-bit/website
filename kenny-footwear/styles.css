@@ -67,6 +67,18 @@ html {
   margin-top: 60px;
 }
 
+.hero-visual {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-visual img {
+  width: min(100%, 420px);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.25em;
@@ -130,9 +142,12 @@ html {
   box-shadow: var(--shadow);
 }
 
-.product-icon {
-  font-size: 2rem;
-  margin-bottom: 10px;
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 12px;
 }
 
 .price-row {
@@ -200,6 +215,42 @@ html {
   display: flex;
   justify-content: space-between;
   font-size: 1.1rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.contact-info ul {
+  list-style: none;
+  margin-top: 16px;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #e7d7cb;
+  border-radius: 12px;
+  font: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
 }
 
 footer {
