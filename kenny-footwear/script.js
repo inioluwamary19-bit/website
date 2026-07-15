@@ -1,16 +1,16 @@
-const cartItems = [];
-const cartCountEl = document.getElementById('cart-count');
+const cartButton = document.querySelector('.nav-btn');
+const badge = document.querySelector('.cart-badge');
+let cartCount = 0;
 
 function updateCart() {
-  cartCountEl.textContent = cartItems.length;
+  if (badge) {
+    badge.textContent = cartCount;
+  }
 }
 
 document.querySelectorAll('.add-btn').forEach((button) => {
   button.addEventListener('click', () => {
-    const name = button.getAttribute('data-product');
-    const price = Number(button.getAttribute('data-price'));
-
-    cartItems.push({ name, price });
+    cartCount += 1;
     updateCart();
     button.textContent = 'Added';
     button.disabled = true;
