@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kenny's Footwear</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <div class="brand">Kenny's Footwear</div>
+        <div class="nav-links">
+          <a href="#collection">Collection</a>
+          <a href="#categories">Categories</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#cart-section">Cart</a>
+        </div>
+        <div class="cart-pill">Cart <span id="cart-count">0</span></div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">Trendsetting bags & footwear</p>
+        <h1>Style that walks with confidence.</h1>
+        <p class="hero-text">
+          Discover premium picks for men, ladies, and babies—crafted for comfort,
+          quality, and everyday charm.
+        </p>
+        <a class="cta" href="#collection">Shop now</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="collection" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Popular picks</p>
+          <h2>Best sellers for every step</h2>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-icon">🧥</div>
+            <h3>Classic Leather Bag</h3>
+            <p>Smart and sleek for work or travel.</p>
+            <div class="price-row">
+              <span>$79</span>
+              <button class="add-btn" data-product="Classic Leather Bag" data-price="79">Add to cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-icon">👟</div>
+            <h3>Runner Comfort</h3>
+            <p>Lightweight sneakers with all-day support.</p>
+            <div class="price-row">
+              <span>$64</span>
+              <button class="add-btn" data-product="Runner Comfort" data-price="64">Add to cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-icon">🍼</div>
+            <h3>Baby Comfort Set</h3>
+            <p>Soft fabrics and premium comfort for little feet.</p>
+            <div class="price-row">
+              <span>$49</span>
+              <button class="add-btn" data-product="Baby Comfort Set" data-price="49">Add to cart</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="categories" class="section categories-section">
+        <div class="section-heading">
+          <p class="eyebrow">Collections</p>
+          <h2>Wear for men, ladies, and baby</h2>
+        </div>
+
+        <div class="category-grid">
+          <div class="category-card men-card">
+            <h3>Men's Wear</h3>
+            <p>Minimal classics, smart casual, and reliable comfort.</p>
+          </div>
+          <div class="category-card ladies-card">
+            <h3>Lady's Wear</h3>
+            <p>Stylish bags and refined footwear for every occasion.</p>
+          </div>
+          <div class="category-card baby-card">
+            <h3>Baby's Wear</h3>
+            <p>Gentle textures and playful essentials for little ones.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="section review-section">
+        <div class="section-heading">
+          <p class="eyebrow">Customer love</p>
+          <h2>What shoppers say</h2>
+        </div>
+
+        <div class="review-grid">
+          <article class="review-card">
+            <p>“Excellent quality and fast delivery. My son loves the baby set!”</p>
+            <strong>— Ada, Lagos</strong>
+          </article>
+          <article class="review-card">
+            <p>“The leather bag feels premium and classy. I wear it every day.”</p>
+            <strong>— Tolu, Abuja</strong>
+          </article>
+          <article class="review-card">
+            <p>“Very comfortable shoes. The fit is perfect for long walks.”</p>
+            <strong>— Nkechi, Port Harcourt</strong>
+          </article>
+        </div>
+      </section>
+
+      <section id="cart-section" class="section cart-section">
+        <div class="section-heading">
+          <p class="eyebrow">Your basket</p>
+          <h2>Cart summary</h2>
+        </div>
+
+        <div class="cart-box">
+          <ul id="cart-items"></ul>
+          <div class="cart-total">
+            <strong>Total:</strong>
+            <span id="cart-total">$0</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Kenny's Footwear. Stylish essentials for every family.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
