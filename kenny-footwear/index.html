@@ -8,159 +8,148 @@
   </head>
   <body>
     <header class="hero">
-      <nav class="navbar">
-        <div class="brand">Kenny's Footwear</div>
+      <nav class="topbar">
+        <a class="brand" href="#">Kenny's Footwear</a>
         <div class="nav-links">
-          <a href="#collection">Collection</a>
-          <a href="#categories">Categories</a>
-          <a href="#reviews">Reviews</a>
-          <a href="#cart-section">Cart</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#featured">Featured</a>
+          <a href="#contact">Contact</a>
         </div>
         <div class="cart-pill">Cart <span id="cart-count">0</span></div>
       </nav>
 
-      <div class="hero-content">
-        <p class="eyebrow">Trendsetting bags & footwear</p>
-        <h1>Style that walks with confidence.</h1>
-        <p class="hero-text">
-          Discover premium picks for men, ladies, and babies—crafted for comfort,
-          quality, and everyday charm.
-        </p>
-        <a class="cta" href="#collection">Shop now</a>
-      </div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Premium footwear for every family</p>
+          <h1>Step into comfort, style, and confidence.</h1>
+          <p>
+            Discover elegant men’s shoes, chic women’s footwear, and adorable kids’ styles made for everyday wear.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#gallery">View gallery</a>
+            <a class="btn btn-secondary" href="#contact">Book a visit</a>
+          </div>
+        </div>
 
-      <div class="hero-visual">
-        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80" alt="Stylish footwear and bags" />
+        <div class="hero-visual">
+          <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=1200&q=80" alt="Premium footwear showcase" />
+        </div>
       </div>
     </header>
 
     <main>
-      <section id="collection" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Popular picks</p>
-          <h2>Best sellers for every step</h2>
-        </div>
-
-        <div class="product-grid">
-          <article class="product-card">
-            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80" alt="Classic leather bag" />
-            <h3>Classic Leather Bag</h3>
-            <p>Smart and sleek for work or travel.</p>
-            <div class="price-row">
-              <span>$79</span>
-              <button class="add-btn" data-product="Classic Leather Bag" data-price="79">Add to cart</button>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Comfort runner sneakers" />
-            <h3>Runner Comfort</h3>
-            <p>Lightweight sneakers with all-day support.</p>
-            <div class="price-row">
-              <span>$64</span>
-              <button class="add-btn" data-product="Runner Comfort" data-price="64">Add to cart</button>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80" alt="Baby comfort set" />
-            <h3>Baby Comfort Set</h3>
-            <p>Soft fabrics and premium comfort for little feet.</p>
-            <div class="price-row">
-              <span>$49</span>
-              <button class="add-btn" data-product="Baby Comfort Set" data-price="49">Add to cart</button>
-            </div>
-          </article>
-        </div>
+      <section class="highlights">
+        <article>
+          <h3>Men's footwear</h3>
+          <p>Classic loafers, casual sneakers, and formal elegance.</p>
+        </article>
+        <article>
+          <h3>Women's footwear</h3>
+          <p>Bold heels, sleek flats, and everyday comfort.</p>
+        </article>
+        <article>
+          <h3>Children's footwear</h3>
+          <p>Soft, durable, and playful styles for growing feet.</p>
+        </article>
       </section>
 
-      <section id="categories" class="section categories-section">
-        <div class="section-heading">
-          <p class="eyebrow">Collections</p>
-          <h2>Wear for men, ladies, and baby</h2>
+      <section id="gallery" class="section">
+        <div class="section-title">
+          <p class="eyebrow">Our gallery</p>
+          <h2>Footwear collections for every style</h2>
         </div>
 
-        <div class="category-grid">
-          <div class="category-card men-card">
+        <div class="gallery-grid">
+          <article class="category-card">
             <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Men's footwear" />
-            <h3>Men's Wear</h3>
-            <p>Minimal classics, smart casual, and reliable comfort.</p>
-          </div>
-          <div class="category-card ladies-card">
+            <div class="category-body">
+              <h3>Men's footwear</h3>
+              <p>Minimal, refined, and built for everyday confidence.</p>
+            </div>
+          </article>
+
+          <article class="category-card">
             <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=900&q=80" alt="Women's footwear" />
-            <h3>Lady's Wear</h3>
-            <p>Stylish bags and refined footwear for every occasion.</p>
-          </div>
-          <div class="category-card baby-card">
-            <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80" alt="Baby footwear" />
-            <h3>Baby's Wear</h3>
-            <p>Gentle textures and playful essentials for little ones.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="reviews" class="section review-section">
-        <div class="section-heading">
-          <p class="eyebrow">Customer love</p>
-          <h2>What shoppers say</h2>
-        </div>
-
-        <div class="review-grid">
-          <article class="review-card">
-            <p>“Excellent quality and fast delivery. My son loves the baby set!”</p>
-            <strong>— Ada, Lagos</strong>
+            <div class="category-body">
+              <h3>Women's footwear</h3>
+              <p>Fashion-forward styles that pair beautifully with any outfit.</p>
+            </div>
           </article>
-          <article class="review-card">
-            <p>“The leather bag feels premium and classy. I wear it every day.”</p>
-            <strong>— Tolu, Abuja</strong>
-          </article>
-          <article class="review-card">
-            <p>“Very comfortable shoes. The fit is perfect for long walks.”</p>
-            <strong>— Nkechi, Port Harcourt</strong>
+
+          <article class="category-card">
+            <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80" alt="Children's footwear" />
+            <div class="category-body">
+              <h3>Children's footwear</h3>
+              <p>Comfort-first designs with bright, cheerful details.</p>
+            </div>
           </article>
         </div>
       </section>
 
-      <section id="cart-section" class="section cart-section">
-        <div class="section-heading">
-          <p class="eyebrow">Your basket</p>
-          <h2>Cart summary</h2>
+      <section id="featured" class="section featured-section">
+        <div class="section-title">
+          <p class="eyebrow">Featured styles</p>
+          <h2>Most-loved picks this season</h2>
         </div>
 
-        <div class="cart-box">
-          <ul id="cart-items"></ul>
-          <div class="cart-total">
-            <strong>Total:</strong>
-            <span id="cart-total">$0</span>
-          </div>
+        <div class="featured-grid">
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80" alt="Luxury men's shoe" />
+            <h3>Executive Loafer</h3>
+            <p>Sharp design with soft cushioning.</p>
+            <div class="price-row">
+              <span>$89</span>
+              <button class="add-btn" data-product="Executive Loafer" data-price="89">Add to cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Women's sneakers" />
+            <h3>Velvet Runner</h3>
+            <p>Lightweight and stylish for day-to-night wear.</p>
+            <div class="price-row">
+              <span>$74</span>
+              <button class="add-btn" data-product="Velvet Runner" data-price="74">Add to cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Children's shoe" />
+            <h3>Little Star Sneaker</h3>
+            <p>Flexible comfort with playful charm.</p>
+            <div class="price-row">
+              <span>$39</span>
+              <button class="add-btn" data-product="Little Star Sneaker" data-price="39">Add to cart</button>
+            </div>
+          </article>
         </div>
       </section>
 
       <section id="contact" class="section contact-section">
-        <div class="contact-grid">
-          <div class="contact-info">
-            <p class="eyebrow">Say hello</p>
-            <h2>Contact Kenny's Footwear</h2>
-            <p>Need help choosing a style or placing a big order? Our team is ready to assist.</p>
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contact us</p>
+            <h2>Visit the showroom or send us a message</h2>
+            <p>We’re here to help you choose the perfect pair for every occasion.</p>
             <ul>
               <li>📞 +234 810 000 1234</li>
               <li>✉️ hello@kennysfootwear.com</li>
-              <li>📍 18A, Allen Avenue, Ikeja</li>
+              <li>📍 18A Allen Avenue, Ikeja, Lagos</li>
             </ul>
           </div>
 
           <form class="contact-form">
             <input type="text" placeholder="Your name" required />
             <input type="email" placeholder="Your email" required />
-            <textarea rows="4" placeholder="Tell us what you need"></textarea>
-            <button type="submit" class="cta">Send message</button>
+            <textarea rows="4" placeholder="How can we help you?"></textarea>
+            <button type="submit" class="btn btn-primary">Send message</button>
           </form>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>© 2026 Kenny's Footwear. Stylish essentials for every family.</p>
+      <p>© 2026 Kenny's Footwear. Made for every step.</p>
     </footer>
 
     <script src="script.js"></script>
